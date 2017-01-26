@@ -7,7 +7,7 @@ def alphabet_position(letter):
 
 def rotate_character(char, rot):
     '''This function should rotate the given character to the right by the amount given for rotation.'''
-    punct = ['!','@','#','$','%','^','&','*','(',')','~','-','_','=','+','/',',','.','?'," ",'"', "'"]
+    punct = ['!','@','#','$','%','^','&','*','(',')','~','-','_','=','+','/',',','.','?'," ",'"', "'", ">", "<"]
     nums = ['0','1','2','3','4','5','6','7','8','9']
     alpha = 'abcdefghijklmnopqrstuvwxyz'
     if char in punct or char in nums:
